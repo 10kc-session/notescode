@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grouping Selectors Example</title>
+<style>
+    /* Grouping Selectors */
+    h1, h2, h3 {
+        color: blue;
+        font-style: italic;
+    }
+    .info, .warning, .error {
+        border: 1px solid;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    /* Specific styles for individual selectors */
+    .info {
+        color: green;
+        background-color: lightgreen;
+    }
+    .warning {
+        color: orange;
+        background-color: lightyellow;
+    }
+    .error {
+        color: red;
+        background-color: lightcoral;
+    }
+</style>
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <div class="info">Information message</div>
+    <div class="warning">Warning message</div>
+    <div class="error">Error message</div>
+</body>
+</html>
