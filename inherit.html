@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selectors</title>
+    <style>
+        div {
+            border: 3px solid green; /* Parent Tag */
+            padding: 5px;
+            color: red;
+            margin-bottom: 10px;
+        }
+        p {
+            all: inherit; /* Sub or Child Tag */
+        }
+        .d1
+        {
+            border: 3px solid green; /* Parent Tag */
+            padding: 5px;
+            color: red;
+        }
+        .p1
+        {
+            all : unset;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Welcome
+        <p>Styles in HTML</p>
+    </div>
+    <div class="d1">
+        Another Welcome
+        <p class="p1">Styles in HTML</p>
+    </div>
+</body>
+</html>
